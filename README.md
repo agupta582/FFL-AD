@@ -15,4 +15,41 @@ accuracy even when 40% of the clients are attackers.
 
 python main.py -dataset MNIST -gpu no -flRounds 30 -numClients 50 -clientEpochs 4 -atk_backdoor_list 1,3,5,7 -atk_label_flip_unidir_list 2,4,6,8
 
-### **See "getArguments.py" for generating more scenarios** 
+#### **See _getArguments.py_ for generating more scenarios as given below: **
+
+```
+usage: main.py [-h] [-batchSize BATCHSIZE] [-lbatchSize LBATCHSIZE]
+               [-learningRate LEARNINGRATE] [-flRounds FLROUNDS]
+               [-dataset DATASET] [-distribution DISTRIBUTION]
+               [-clientEpochs CLIENTEPOCHS] [-numClients NUMCLIENTS]
+               [-fracClients FRACCLIENTS] [-verbose VERBOSE]
+               [-momentum MOMENTUM] [-weight_decay WEIGHT_DECAY] [-gpu GPU]
+               [-clientProgress CLIENTPROGRESS]
+               [-resumeTraining RESUMETRAINING]
+               [-atk_label_flip_unidir_list ATK_LABEL_FLIP_UNIDIR_LIST]
+               [-atk_backdoor_list ATK_BACKDOOR_LIST]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -batchSize BATCHSIZE  Batch size for training and testing
+  -lbatchSize LBATCHSIZE
+                        Batch size for client
+  -learningRate LEARNINGRATE
+  -flRounds FLROUNDS
+  -dataset DATASET
+  -distribution DISTRIBUTION
+                        select one of following: iid, dirichlet
+  -clientEpochs CLIENTEPOCHS
+  -numClients NUMCLIENTS
+  -fracClients FRACCLIENTS
+  -verbose VERBOSE
+  -momentum MOMENTUM
+  -weight_decay WEIGHT_DECAY
+  -gpu GPU              Set yes to use gpu
+  -clientProgress CLIENTPROGRESS
+                        set false to avoid client-progress printing
+  -resumeTraining RESUMETRAINING
+                        Set yes to resume from previously trained model
+  -atk_label_flip_unidir_list ATK_LABEL_FLIP_UNIDIR_LIST
+  ```
+

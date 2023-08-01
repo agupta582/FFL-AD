@@ -1,4 +1,5 @@
-## Is Performance Fairness Achievable in Presence of Attackers under Federated Learning?
+## Is Performance Fairness Achievable in Presence of Attackers under Federated Learning? 
+###### **To be appeared in ECAI 2023**
 
 ###### **Abstract**:
 
@@ -9,4 +10,7 @@ accuracy even when 40% of the clients are attackers.
 ![FFL+AD Overview](https://github.com/agupta582/FFL-AD/assets/67119520/7f1480b7-cd96-42da-a2b2-4a450512ef3f)
 
 
-###### **To be appeared in ECAI 2023**
+
+### **Command to execute a scenario via terminal**
+
+

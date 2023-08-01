@@ -1,5 +1,5 @@
 ## Is Performance Fairness Achievable in Presence of Attackers under Federated Learning? 
-###### **To be appeared in ECAI 2023**
+##### **To be appeared in ECAI 2023**
 
 ###### **Abstract**:
 
@@ -11,8 +11,8 @@ accuracy even when 40% of the clients are attackers.
 
 
 
-### **Execute a scenario via terminal**
+## **Execute a scenario via terminal**
 
-run main.py -dataset MNIST -gpu no -flRounds 30 -numClients 50 -clientEpochs 4 -atk_backdoor_list 1,3,5,7 -atk_label_flip_unidir_list 2,4,6,8
+python main.py -dataset MNIST -gpu no -flRounds 30 -numClients 50 -clientEpochs 4 -atk_backdoor_list 1,3,5,7 -atk_label_flip_unidir_list 2,4,6,8
 
-### **See "getArguments.py" for generating more scenarios** 
+## **See "getArguments.py" for generating more scenarios** 

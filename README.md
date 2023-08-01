@@ -9,7 +9,7 @@ accuracy even when 40% of the clients are attackers.
 
 ![FFL+AD Overview](https://github.com/agupta582/FFL-AD/assets/67119520/7f1480b7-cd96-42da-a2b2-4a450512ef3f)
 
-### **Execute a scenario via terminal**
+### **Running an example scenario via terminal**
 ```
 $python main.py -dataset MNIST -gpu no -flRounds 30 -numClients 50 -clientEpochs 4 -atk_backdoor_list 1,3,5,7 -atk_label_flip_unidir_list 2,4,6,8
 ```
